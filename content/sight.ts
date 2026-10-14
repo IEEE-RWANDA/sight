@@ -11,11 +11,6 @@ const content: SiteContent = {
   id: "sight",
   shortName: "IEEE Rwanda SIGHT",
   fullName: "IEEE Rwanda SIGHT Group",
-  wordmark: {
-    lineTop: "IEEE Rwanda",
-    lineMain: "SIGHT Group",
-    lineSub: "Special Interest Group on Humanitarian Technology",
-  },
   identifierLabel: "Rwanda Subsection",
 
   headerTitle: ["IEEE Rwanda", "SIGHT Group"],
@@ -26,53 +21,24 @@ const content: SiteContent = {
 
   // Colours from the IEEE Humanitarian Technologies / IEEE SIGHT guidelines:
   // IEEE Blue, Dark Blue, SIGHT red #BA0C2F (the identifier "wedge") and orange #E87722.
-  colors: { brand: "#00629B", accent: "#BA0C2F", onAccent: "#FFFFFF", accent2: "#E87722", surface: "#E6EFF5" },
+  colors: { brand: "#00629B", accent: "#BA0C2F", surface: "#E6EFF5" },
 
-  slides: [
-    {
-      image: "/sight/hero/kigali-houses.jpg",
-      alt: "Homes on the hills of Kigali",
-      title: "Engineering with communities.",
-      subtitle: "IEEE Rwanda SIGHT Group",
-      cta: { label: "Volunteer with us", href: "/get-involved/" },
-      credit: { name: "Protais Benjamin Mugenzi / Unsplash", url: "https://unsplash.com/photos/K15V22xU1zs" },
-    },
-    {
-      image: "/sight/hero/lagos-classroom.jpg",
-      alt: "Pupils learning in a classroom",
-      title: "Technology for education and opportunity.",
-      subtitle: "Projects designed together with schools and communities",
-      cta: { label: "See our projects", href: "/projects/" },
-      credit: { name: "Doug Linstedt / Unsplash", url: "https://unsplash.com/photos/jEEYZsaxbH4" },
-      focus: "center 40%",
-    },
-    {
-      image: "/sight/hero/solar-roof-man.jpg",
-      alt: "A team installing solar panels on a roof",
-      title: "Energy access that lasts.",
-      subtitle: "Community-led humanitarian technology",
-      cta: { label: "Start a project", href: "/contact/" },
-      credit: { name: "Justin Lim / Unsplash", url: "https://unsplash.com/photos/Fpcy-AdFhUg" },
-      focus: "center 45%",
-    },
-  ],
-
+  // The photo, headline and button at the top of the home page.
   hero: {
-    eyebrow: "IEEE Rwanda Subsection · Region 8",
-    title: "Engineering with communities, for lasting impact.",
-    subtitle:
-      "IEEE Rwanda SIGHT brings engineers and students together with local communities to design and deliver technology projects that improve everyday life.",
-    highlights: ["Energy access", "Clean water", "Digital inclusion", "Community-led design"],
-    primary: { label: "Volunteer with SIGHT", href: "/get-involved/" },
-    secondary: { label: "See our projects", href: "/projects/" },
+    image: "/sight/hero/kigali-houses.jpg",
+    alt: "Homes on the hills of Kigali",
+    title: "Engineering with communities.",
+    cta: { label: "Volunteer with us", href: "/get-involved/" },
+    credit: { name: "Protais Benjamin Mugenzi / Unsplash", url: "https://unsplash.com/photos/K15V22xU1zs" },
   },
 
-  stats: [
-    { value: "1", label: "Group, open to every IEEE Rwanda member" },
-    { value: "2026", label: "Year the Subsection launched" },
-    { value: "400k+", label: "IEEE members worldwide" },
-    { value: "17", label: "UN Sustainable Development Goals we work towards" },
-  ],
+  // Shown beside "About us" on the home page. Remove to show the text on its own.
+  aboutPhoto: {
+    image: "/sight/hero/lagos-classroom.jpg",
+    alt: "Pupils learning in a classroom",
+    credit: { name: "Doug Linstedt / Unsplash", url: "https://unsplash.com/photos/jEEYZsaxbH4" },
+    focus: "center 40%",
+  },
 
   about: {
     heading: "About IEEE Rwanda SIGHT",
@@ -106,7 +72,6 @@ const content: SiteContent = {
   ],
 
   focus: {
-    eyebrow: "Focus areas",
     heading: "Where we put engineering to work",
     intro: "Our projects start with a community need. These are the areas where we focus first.",
     cards: [
