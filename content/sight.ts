@@ -89,12 +89,6 @@ const content: SiteContent = {
       "SIGHT projects are designed with the community and a local partner, and are usually funded through IEEE SIGHT or IEEE HAC. Here is what we are working on.",
     cards: [
       {
-        tag: "Sample · Planning",
-        title: "Sample project: Solar power for a rural health post",
-        description: "Replace this card with a real project: the community, the problem, the solution, the partners and the current status.",
-        placeholder: true,
-      },
-      {
         tag: "Open call",
         title: "Have a project idea?",
         description:
