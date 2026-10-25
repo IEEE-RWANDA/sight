@@ -117,13 +117,14 @@ const content: SiteContent = {
 
   events: [
     {
-      title: "Sample: Introduction to humanitarian engineering workshop",
-      date: "2026-11-27",
-      time: "14:00–17:00",
-      location: "Kigali (venue to be confirmed)",
-      type: "Workshop",
-      summary: "Replace this sample with your next real event. Put the vTools registration link in registerUrl.",
-      placeholder: true,
+      title: "Charging Ahead: Making Sense of Rwanda's EV Battery Interoperability Mandate",
+      date: "2026-11-06",
+      time: "16:00–17:30",
+      location: "Digital Transformation Center Rwanda, Kigali",
+      type: "Panel Discussion",
+      organiser: "IEEE Rwanda Young Professionals, with the PES/IAS/PELS Joint Chapter and SIGHT Group",
+      summary: "In June 2026, Rwanda became the first African country to require battery-swapping interoperability. Panellists from government, e-mobility, charging infrastructure and finance discuss what it means in practice and how investment can support the transition, followed by Q&A and networking. Open to students, engineers and professionals.",
+      registerUrl: "https://lnkd.in/dfx5kXuR",
     },
     ...SUBSECTION_EVENTS,
   ],
