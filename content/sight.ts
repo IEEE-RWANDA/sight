@@ -100,7 +100,7 @@ const content: SiteContent = {
   },
 
   officers: [
-    { group: "Executive Committee", name: "Akabway Rurangwa", role: "Chair", affiliation: "SLS Energy Ltd" },
+    { group: "Executive Committee", name: "Akabway Rurangwa", role: "Chair" },
     { group: "Executive Committee", name: "Akebert Arefaine", role: "Vice Chair" },
     { group: "Executive Committee", name: "Samuel Chukwuma", role: "Secretary" },
     { group: "Executive Committee", name: "Patricia Murira", role: "Treasurer" },
